@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- CSS -->
+     <link rel="stylesheet" href="css/style.css">
+  <!-- fuente -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>G+E</title>
+</head>
+<body>
+
+  <header>
+    <h1 class="titulos">Grupo + Eficiente</h1>
+   <nav>
+     <ul> <!-- menu de navegación -->
+       <li>Home</li>
+       <li>Servicios</li>
+       <li>C&A</li>
+       <li>Contacto</li>
+     </ul>
+   </nav>
+  </header>
+  
+  <main>
+    <h2 class="titulos">Nuestros Servicios</h2>
+    <div class="asesoramiento">
+     <h3 class="titulos">Asesoramiento Logístico integral</h3>
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio dolor, iusto ullam mollitia, itaque hic voluptas
+      doloribus voluptatibus deserunt eaque, natus laboriosam amet labore similique nisi? Laudantium nesciunt architecto
+      veniam!</p>
+    </div>
+    <div class="desarrollo-prov">
+     <h3 class="titulos">Desarrollo de Proveedores</h3>
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, fuga ea fugiat reiciendis, cum dolores doloribus quam architecto totam eveniet dolore. Id, nam aliquid? Eum corporis quasi repellat architecto modi.</p>
+    </div>
+    <div class="desarrollo-soft">
+     <h3 class="titulos">Desarrollos de Software</h3>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur magni, vero obcaecati tempore dolor cumque repellendus officia quibusdam commodi alias necessitatibus dolorum harum consectetur magnam enim esse illum aperiam amet.</p>
+    </div>
+    <h2 class="titulos">Clientes y Alianzas</h2> 
+    <section class="imagen">
+      <!-- coloque el código de bootstrap, pero no puedo mantener el tamaño uniforme de las imágenes -->
+      <div id="carrusel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           <img src="img/bertolini logo.png" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="img/cctech logo.png" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="img/ifk logo (1).png" alt="">
+          </div>
+          <div class="carousel-item">
+           <img src="img/logo aero valet 01.jpg" alt="">
+          </div>
+        </div>
+      </div>  
+    </section>
+    <h2 class="titulos">Contacto</h2>
+    <form action="/submit" method="post">
+      <label for="nombre">Nombre</label>
+      <input type="text" name="nombre" id="nombre">
+      <label for="celular">Celular</label>
+      <input type="tel" name="celular" id="celular">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email">
+      <label for="mensaje">Mensaje</label> <!-- no se como cambiar el tamaño de la caja de texto -->
+      <input type="text" name="mensaje" id="mensaje">
+      <input type="submit" value="Enviar">
+    </form>
+
+    <footer> <!-- pie de pagina -->
+      <p>Todos los derechos reservados</p>
+    </footer>
+
+  </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>
